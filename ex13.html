@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+        
+        <p id="empty_p"></p>
+
+        <script>
+        	var person = {'name':'Dori','age':'21','year_birth':1999};
+        	var text = '';
+
+        	for(x in person){
+                text += person[x]+ ' ';
+        	}
+
+        	document.getElementById('empty_p').innerHTML=text;
+        </script>
+</body>
+</html>

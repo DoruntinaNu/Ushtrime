@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+       <p id="empty_p"></p>
+
+       <script>
+       	      var text;
+       	      switch(new Date().getDay()){
+       	      	case 1:
+       	      	text = "Today is Monday.";
+       	      	break;
+       	      	case 2:
+       	      	text = "Today is Tuesday.";
+       	      	break;
+       	      	case 3:
+       	      	text = "Today is Wednesday.";
+       	      	break;
+       	      	case 4:
+       	      	text = "Today is Thursday.";
+       	      	break;
+       	      	case 5:
+       	      	text = "Today is Friday.";
+       	      	break;
+       	      	case 6:
+       	      	text = "Today is Sunday.";
+       	      	break;
+       	      	case 7:
+       	      	text = "Today is Saturday.";
+       	      	break;
+       	      	default:
+       	      	text = "Looking forward to the weekend!"
+
+       	      }
+
+       	      document.getElementById('empty_p').innerHTML=text;
+       </script>
+</body>
+</html>

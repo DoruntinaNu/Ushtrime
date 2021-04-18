@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drita</title>
+</head>
+<body>
+        <p id="p1">Click the buttons!</p>
+
+        <button onclick="change_color()">Click here o change the color of text!</button>
+
+         <script type="text/javascript"> 
+         	function change_color() {
+         		document.getElementById('p1').style.color="pink";
+         	}
+         </script>
+
+        <br>
+        <hr>
+
+      <button onclick="document.getElementById('img_get').src='images/pic_bulbon.gif'">Turn the light on!</button>
+
+      <img src="images/pic_bulboff.gif" id="img_get">
+
+      <button onclick="document.getElementById('img_get').src='images/pic_bulboff.gif'">Turn the light off!</button>
+
+      <br>
+
+      
+      <hr>
+
+</body>
+</html>

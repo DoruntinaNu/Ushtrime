@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+       
+       <button onclick="myPrompt()">Click me to get the name you input!</button>
+       	<p id="first_p"></p>
+
+       	<script>
+       		function myPrompt() {
+       			var person = prompt("Enter your name")
+       			if (person != null) {
+       				document.getElementById('first_p').innerHTML='Welcome '+person;
+       			}
+       		}
+       		
+       	</script>
+</body>
+</html>
